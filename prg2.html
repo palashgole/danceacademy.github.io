@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+  <title>Dance Academy School</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+      input[type=text],input[type=password]
+              {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+              }
+              #login
+              {
+                  background: green;
+                  border: none;
+                  padding: 8px;
+                  color: white;
+                  width: 100%;
+              }
+      #content
+      {
+          background: #0b0a0a;
+          height: 300px;
+      }
+      .content1
+      {
+          background: red;
+      }
+      #footer
+      {
+          height: 50px;
+          
+      }
+      #set
+      {
+          background: #ccccff;
+      }
+      .dance
+      {
+          width: 80%;
+          height: 250px;
+      }
+      a img:hover
+      {
+          opacity: 0.5;    
+      }
+      .img1
+      {
+         height: 400px;
+         width: 100%;
+      }
+  </style>
+    </head>
+    
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Health Care</a>
+                </div>
+                <div id="mynavbar" class="nav">
+                <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#">HOME</a></li>
+                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Health Care<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                         <li><a href="#">Hip Hop</a></li>
+                         <li><a href="#">Salsa</a></li>
+                         <li><a href="#">Classical</a></li>
+                         <li><a href="#">Contempery</a></li>
+                         <li><a href="#">Bollywood</a></li>
+                     </ul>
+                 </li>
+                 <li class="dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle">SERVICES<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                         <li><a href="#">Doc</a></li>
+                         <li><a href="#">Winter Dance</a></li>
+                         <li><a href="#">Home Dance</a></li>
+                         <li><a href="#">Competition Dance</a></li>
+                     </ul>
+                 </li>
+                 <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">FITNESS CARE<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Pole Dancing</a></li>
+                         <li><a href="#">Hula Hoop Dancing</a></li>
+                         <li><a href="#">Yoga Dancing</a></li>
+                         <li><a href="#">Go Go Dancing</a></li> 
+                     </ul>
+                </li>
+                 <li><a href="#about">ABOUT US</a></li>
+                 <li><a href="#contact">CONTACT US</a></li>
+                 <li><a href="#mysignin">LOGIN</a></li>
+                 </ul>
+        </nav>
+        <div class="col-md-12" id="set" style="margin-top: 50px">
+        <div class="container-fluid">  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner img1">
+      <div class="item active">
+          <img class="img1" src="img4.jpg" alt="Los Angeles">
+      </div>
+
+      <div class="item">
+          <img class="img1" src="img2.jpg" alt="Chicago">
+      </div>
+    
+      <div class="item">
+          <img class="img1" src="img3.jpg" alt="New york">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+        </div>  
+        </div>
+        <div class="jumbotron text-center">
+                        <h3>We provide many type of dance form.</h3>
+                    </div>
+        <div class="container-fluid bg-3 text-center" style="background: #152523;color: white;">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Hip-Hop</h3>
+                    <a href="#"><img src="images/hiphop.jpg" class="dance" alt="hiphop"></a>
+                </div>
+                <div class="col-md-3">
+                    <h3>Salsa</h3>
+                    <a href="#"><img src="images/salsa.jpg" class="dance" alt="salsa"></a>
+                </div>
+                <div class="col-md-3">
+                    <h3>Ballet</h3>
+                    <a href="#"><img src="images/ballet.jpg" class="dance" alt="ballet"></a>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contemporary</h3>
+                    <a href="#"><img src="images/contemporary.jpg" class="dance" alt="contemporary"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Break</h3>
+                    <a href="#"><img src="images/break.jpg" class="dance" alt="break"></a>
+                </div>
+                <div class="col-md-3">
+                    <h3>Classical</h3>
+                    <a href="#"><img src="images/classical.jpg" class="dance" alt="classical"></a>
+                </div>
+                <div class="col-md-3">
+                    <h3>Jazz</h3>
+                    <a href="#"><img src="images/jazz.jpg" class="dance" alt="jazz"></a>
+                </div>
+                <div class="col-md-3">
+                    <h3>Belly</h3>
+                    <a href="#"><img src="images/belly.jpg" class="dance" alt="belly"></a>
+                </div>
+            </div>
+            
+        </div><br>
+        <div class="container-fluid" style="color: white;background: #152523;padding-left: 35px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <h2 id="about">About Us</h2><br>
+                    <i>Dance Academy established in 2018. The founder name is Palash Gole. 
+                    Here the choreography process is done by Dance Expert Faculties. 
+                    Dance Academy is one of the successful dance company specializing in 
+                    holding regular dance classes, full day workshop, short workshop as 
+                    well as all types of Dance events like corporate shows, barmala function and wedding Sangeet ceremony.</i>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h2 id="contact">Contact Us</h2><br>
+                        <i>Dance Academy, Race Course Road, INDORE, MP 425003<br>
+                        Mobile No. - 9907579119<br>
+                        Email - sh_ekta@rediffmail.com<br><br>
+                        Dance Academy, Shinde Ki Chhawani, GWALIOR, MP 474001<br>
+                        Mobile No. - 9009697001<br>
+                        Email - palashgole2016@gmail.com<br><br>
+                        Dance Academy, City Center, RATLAM, MP 425003<br>
+                        Mobile No. - 8319951894<br>
+                        Email - nath.mansi34@gamil.com</i>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="height: 60px;background: #041413;">
+            
+        </div>
+    </body>
+</html>
